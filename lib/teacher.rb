@@ -4,7 +4,7 @@ class Teacher < User
 
   def teach
     random = rand(KNOWLEDGE.length) 
-    KNOWLEDGE[random]
+    KNOWLEDGE[ramdon_index]
   end
   
 end
