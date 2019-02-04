@@ -7,7 +7,6 @@ class Teacher < User
   def teach
     ramdon_index = rand(KNOWLEDGE.length) 
     KNOWLEDGE[ramdon_index]
-    binding.pry
   end
   
 end
